@@ -1,0 +1,67 @@
+.App {  
+  text-align: center;  
+}  
+
+.container {  
+  min-height: 100vh;  
+  background-color: #f8f3f3; /* Soft pink background */  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;  
+  padding: 20px; /* Tambahkan padding untuk memberi ruang */  
+}  
+
+.header {  
+  background-color: #ff6f61; /* Header color */  
+  color: white;  
+  padding: 20px;  
+  width: 100%;  
+}  
+
+.profile-card {  
+  background-color: white;  
+  border-radius: 10px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+  padding: 20px;  
+  width: 100%;  
+  max-width: 800px; /* Max width for profile card */  
+  margin: 0 auto; /* Pusatkan card */  
+}  
+
+.profile-info {  
+  margin-bottom: 20px;  
+}  
+
+.button {  
+  background-color: #ff6f61; /* Button color */  
+  color: white;  
+  padding: 10px 20px;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+}  
+
+.button:hover {  
+  background-color: #ff4f3a; /* Darker shade on hover */  
+}
+.input {  
+  width: 100%;  
+  padding: 10px;  
+  margin: 10px 0;  
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+}  
+
+.button {  
+  background-color: #ff6f61; /* Button color */  
+  color: white;  
+  padding: 10px 20px;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+}  
+
+.button:hover {  
+  background-color: #ff4f3a; /* Darker shade on hover */  
+}
